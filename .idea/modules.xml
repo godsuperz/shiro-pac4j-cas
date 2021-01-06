@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/activemq-springboot/activemq-springboot.iml" filepath="$PROJECT_DIR$/activemq-springboot/activemq-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt-springboot/jwt-springboot.iml" filepath="$PROJECT_DIR$/jwt-springboot/jwt-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-springboot/mail-springboot.iml" filepath="$PROJECT_DIR$/mail-springboot/mail-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-springboot/shiro-springboot.iml" filepath="$PROJECT_DIR$/shiro-springboot/shiro-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket-springboot/websocket-springboot.iml" filepath="$PROJECT_DIR$/websocket-springboot/websocket-springboot.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <label>
+        <input type="text" id="msg_txt">
+    </label>
+    <button type="button" id="msg_btn" onclick="sendMsg()">发送</button>
+    <div id="receive_area" style="min-width: 500px; min-height: 260px; border: 1px solid black;">
+    </div>
+</div>
+<script src="https://cdn.bootcdn.net/ajax/libs/sockjs-client/1.1.5/sockjs.js"></script>
+<!--<script src="https://cdn.bootcdn.net/ajax/libs/sockjs-client/1.0.0/sockjs.min.js"></script>-->
+<script>
+    /*var url = "ws://localhost:8080/myHandler";
+    var socket = new WebSocket(url);
+    function sendMsg() {
+        var msgTxt = document.getElementById("msg_txt");
+        console.log(msgTxt.value);
+        socket.send(msgTxt.value);
+    }
+
+    socket.onopen = function () {
+        console.log("=========成功建立websocket连接========");
+    };
+
+    socket.onclose = function () {
+        console.log("=========成功关闭websocket连接========");
+    };
+
+    socket.onmessage = function (evt) {
+        var receive_area = document.getElementById("receive_area");
+        var p = document.createElement("p");
+        p.innerText = evt.data;
+        receive_area.appendChild(p);
+    };*/
+
+    var url = "http://localhost:8080/myHandler";
+    var sockJS = new SockJS(url);
+
+    function sendMsg() {
+        var msgTxt = document.getElementById("msg_txt");
+        console.log(msgTxt.value);
+        sockJS.send(msgTxt.value);
+    }
+
+    sockJS.onopen = function() {
+        console.log('open');
+        sockJS.send('test');
+    };
+
+    sockJS.onmessage = function(e) {
+        var receive_area = document.getElementById("receive_area");
+        var p = document.createElement("p");
+        p.innerText = e.data;
+        receive_area.appendChild(p);
+    };
+
+    sockJS.onclose = function() {
+        console.log('close');
+    };
+</script>
+</body>
+</html>

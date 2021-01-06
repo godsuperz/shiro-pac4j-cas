@@ -1,0 +1,5 @@
+server:
+  port: 8888
+spring:
+  activemq:
+    broker-url: tcp://47.102.105.193:61616

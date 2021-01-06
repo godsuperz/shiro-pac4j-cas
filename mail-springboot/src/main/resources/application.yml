@@ -1,0 +1,11 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: lovesuperzc@163.com
+    password: javapython12
+    default-encoding: UTF-8
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
+logging:
+  level:
+    web: debug
