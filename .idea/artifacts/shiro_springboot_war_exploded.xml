@@ -46,11 +46,7 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.2" />
-          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring-boot-web-starter:1.5.3" />
-          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring-boot-starter:1.5.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring:1.5.3" />
-          <element id="library" level="project" name="Maven: io.buji:buji-pac4j:5.0.1" />
-          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-web:1.5.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.5.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-lang:1.5.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-cache:1.5.3" />
@@ -62,7 +58,9 @@
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.4" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-event:1.5.3" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-web:1.5.3" />
           <element id="library" level="project" name="Maven: org.owasp.encoder:encoder:1.2.2" />
+          <element id="library" level="project" name="Maven: io.buji:buji-pac4j:5.0.1" />
           <element id="library" level="project" name="Maven: org.pac4j:pac4j-core:4.0.1" />
           <element id="library" level="project" name="Maven: org.pac4j:pac4j-cas:4.0.1" />
           <element id="library" level="project" name="Maven: org.jasig.cas.client:cas-client-core:3.6.1" />

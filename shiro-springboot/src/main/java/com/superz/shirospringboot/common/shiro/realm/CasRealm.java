@@ -21,21 +21,21 @@ import java.util.List;
  */
 public class CasRealm extends Pac4jRealm {
 
-    private String clientName;
-
     /**
      * 认证
      */
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
-        final Pac4jToken pac4jToken = (Pac4jToken) authenticationToken;
-        final List<CommonProfile> commonProfileList = pac4jToken.getProfiles();
-        final CommonProfile commonProfile = commonProfileList.get(0);
+        final Pac4jToken token = (Pac4jToken) authenticationToken;
+        final List<CommonProfile> profiles = token.getProfiles();
+
+        final CommonProfile commonProfile = profiles.get(0);
         System.out.println("单点登录返回的信息" + commonProfile.toString());
         // todo
-        final Pac4jPrincipal principal = new Pac4jPrincipal(commonProfileList, getPrincipalNameAttribute());
+
+        final Pac4jPrincipal principal = new Pac4jPrincipal(profiles, getPrincipalNameAttribute());
         final PrincipalCollection principalCollection = new SimplePrincipalCollection(principal, getName());
-        return new SimpleAuthenticationInfo(principalCollection, commonProfileList.hashCode());
+        return new SimpleAuthenticationInfo(principalCollection, profiles.hashCode());
     }
 
     /**
@@ -48,7 +48,4 @@ public class CasRealm extends Pac4jRealm {
         return authInfo;
     }
 
-    public void setClientName(String clientName) {
-        this.clientName = clientName;
-    }
 }

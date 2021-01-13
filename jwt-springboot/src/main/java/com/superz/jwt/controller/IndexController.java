@@ -4,6 +4,7 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -13,6 +14,12 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/jwt")
 public class IndexController {
+
+    @PostMapping("/testHttpStatus500")
+    @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
+    public String testHttpStatus500() {
+        return "😓😓😓 500 啦！";
+    }
 
     @PostMapping("/login")
     public String login(String username, String password) {

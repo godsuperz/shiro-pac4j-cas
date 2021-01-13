@@ -12,7 +12,7 @@ shiro:
 cas:
   client-name: mfgClient
   server:
-    url: https://tcas.zhuzher.com
-    login-url: https://tcas.zhuzher.com/login
+    url: https://cas.superz.org:8443/cas
+    login-url: https://cas.superz.org:8443/cas/login
   project:
-    url: http://127.0.0.1:8080
+    url: http://localhost:8080
