@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe79fdd-1d8f-4232-a835-3b32753f39e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-springboot/src/main/java/com/superz/jwt/common/scheduler/TestScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-springboot/src/main/java/com/superz/shirospringboot/common/context/SsoAuthenticationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-springboot/src/main/java/com/superz/shirospringboot/common/shiro/ShiroWebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-springboot/src/main/java/com/superz/shirospringboot/common/shiro/ShiroWebFilterConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shiro_springboot_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/shiro_springboot_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_boot_starter_1_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_boot_web_starter_1_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-springboot/src/main/java/com/superz/jwt/JwtSpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-springboot/src/main/java/com/superz/jwt/JwtSpringbootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-springboot/src/main/java/com/superz/jwt/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-springboot/src/main/java/com/superz/jwt/controller/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-springboot/target/classes/com/superz/jwt/JwtSpringbootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-springboot/target/classes/com/superz/jwt/JwtSpringbootApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jwt-springboot/target/classes/com/superz/jwt/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-springboot/target/classes/com/superz/jwt/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-springboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-springboot/src/main/java/com/superz/shirospringboot/common/context/ShiroContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-springboot/src/main/java/com/superz/shirospringboot/common/shiro/realm/CasRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-springboot/src/main/java/com/superz/shirospringboot/common/shiro/realm/CasRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-springboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-springboot/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,6 +230,7 @@
       <workItem from="1610416139924" duration="16154000" />
       <workItem from="1610503798687" duration="1266000" />
       <workItem from="1610529694444" duration="695000" />
+      <workItem from="1610530506603" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="忽略.class文件">
       <created>1610529956966</created>
@@ -253,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610529956966</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="跑通了">
+      <created>1610530792667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610530792667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +266,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="忽略.class文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="忽略.class文件" />
+    <MESSAGE value="跑通了" />
+    <option name="LAST_COMMIT_MESSAGE" value="跑通了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
